@@ -4,34 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMC</title>
-    <link rel="stylesheet" href="SRC/CSS/IMC.css">
+
+    <link rel="stylesheet" href="./SRC/CSS/reset.css">
+    <link rel="stylesheet" href="./SRC/CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/SRC/image/calculadora__favicon.png" type="image/x-icon">
+
+    <title>IMC- Calculadora de Índice de Massa Corporal</title>
 </head>
 <body>
     <header>
-        <h1>Calculando meu IMC</h1>
+        <h1 class="titulo">Calculando meu IMC</h1>
         
     </header> 
 
-    <div class="calculator" id="Calculadora">
-        <p>Calculadora</p>
-            Altura (Metros) <input type="number" placeholder="ex.: 1.60" name="txtn1" id="txtn1">
-            Peso (Kg) <input type="number" placeholder="ex.: 55" name="txtn2" id="txtn2">
-        <input class="btn" id="botão" type="button" value="Calcular" onclick="IMC()">
-    </div>
+    <section class="tela">
 
-    <div class="result" id="Res">
-        <div id="respo">
-            Resultado
+        <div class="calculadora" id="Calculadora">
+
+            <p class="subtitulo">Altura (Metros)</p> 
+            <input type="number" placeholder="ex.: 1.60" name="txtn1" id="txtn1" class="input__calculadora">
+
+            <p class="subtitulo">Peso (Kg)</p>
+            <input type="number" placeholder="ex.: 55" name="txtn2" id="txtn2" class="input__calculadora">
+            
+            <input class="btn__calcular" id="botão" type="button" value="Calcular" onclick="IMC()">
         </div>
-        <div class="calculation" id="calc">
-            Classificação
-        </div>    
-    </div>
+
+        <div class="resultado" id="Res">
+
+            <p class="centraliza__subtitulo">Valor</p>
+            <div class="espaco__resultado" id="respo"></div>
+
+            <p class="centraliza__subtitulo margin__classif">Classificação</p>
+            <div class="espaco__resultado" id="calc"></div>    
+        </div>
+    </section>
+    
     <footer>
-        <p>Feito por Mayara Lopes</p>
+        <p class="footer">Feito por Mayara Lopes- Atualizado em 2023</p>
     </footer>
       
-    <script src="SRC/JS/calculadora.js"></script>
+    <script src="./SRC/JS/main.js"></script>
 </body>
 </html>
