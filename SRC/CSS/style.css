@@ -118,7 +118,7 @@ footer {
     padding-bottom: 1em;
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 480px){
     .titulo{
         margin-top: 2em;
         font-size: 25px;
