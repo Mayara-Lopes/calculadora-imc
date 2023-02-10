@@ -118,8 +118,9 @@ footer {
     padding-bottom: 1em;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 390px){
     .titulo{
+        margin-top: 2em;
         font-size: 25px;
     }
     .tela {
@@ -134,5 +135,9 @@ footer {
 
     .input__calculadora{
         margin-left: 2em;
+    }
+
+    footer {
+        margin-top: 11em;
     }
 }
