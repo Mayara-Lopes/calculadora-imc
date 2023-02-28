@@ -11,7 +11,7 @@
 <p>
   Projeto desenvolvido com HTML5, CSS3 e JavaScript com o objetivo de calcular o IMC utilizando os parâmetros da fórmula e mostrando além do valor sua 
   classificação de acordo com a convenção internacional de saúde.<br>
-  Representa uma claculadora simples que utiliza cálculos matemáticos e estruturas condicionais em seu desenvolvimento. Projeto inicialmente realizado em 2022,
+  Representa uma calculadora simples que utiliza cálculos matemáticos e estruturas condicionais em seu desenvolvimento. Projeto inicialmente realizado em 2022,
   com o intuito de ser uma maneira de colocar em prática o que foi aprendido em aula, agora conta com uma versão atualizada também para mobile.
   
   Link disponível em: https://calculadoraimc-weld.vercel.app
